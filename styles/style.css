@@ -1,0 +1,82 @@
+body{
+	background-color:black;
+}
+#container{
+  position: absolute;
+  width: 500px;
+  height: 500px;
+  top:100px;
+  left:25%;
+
+
+
+  -webkit-animation-iteration-count:infinite;
+   -webkit-animation-timing-function:linear;
+   -webkit-animation-name:orbit;
+   -webkit-animation-duration:10s;
+}
+.moving{
+  position: absolute;
+  background-image: url("../img/p4.png");
+  box-sizing:border-box;
+  min-width: 50px;
+  min-height: 50px;
+  max-width: 50px;
+  max-height: 50px;
+  border-radius: 50%;
+  text-align:center;
+  padding-top:16px;
+  color:white;
+	font-weight: lighter;
+
+   -webkit-animation-iteration-count:infinite;
+   -webkit-animation-timing-function:linear;
+   -webkit-animation-name:orbitinvers;
+   -webkit-animation-duration:10s;
+
+
+}
+#js{
+	left:80px;
+	top:30px;
+}
+#html{
+  top:320px;
+  left:100px;
+}
+#css{
+  top:140px;
+  left:20px;
+}
+#sun{
+top:225px;
+left:225px;
+background-image: url("../img/sun3.png");
+color:black;
+}
+#react{
+	top:140px;
+	left:170px;
+}
+#node{
+	top:70px;
+	left:380px;
+}
+#reactnative{
+	left:300px;
+}
+#git{
+	left:350px;
+	top:310px;
+}
+#github{
+	top:220px;
+	left:350px;
+}
+@-webkit-keyframes orbit {
+from { -webkit-transform:rotate(0deg) }
+to { -webkit-transform:rotate(360deg) } }
+
+@-webkit-keyframes orbitinvers {
+from { -webkit-transform:rotate(0deg) }
+to { -webkit-transform:rotate(-360deg) } }
